@@ -1,6 +1,5 @@
 from PIL import Image
 import os
-import sys
 
 images = [f for f in os.listdir() if f.endswith('jpg')]
 
